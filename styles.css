@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Arial", sans-serif;
+  color: #a4b448;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+}
+
+p, li, span, a {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+}
+
+/* Header */
+.header {
+  background-color: #161518;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f5f2ea;
+}
+.header .nav {
+  display: flex;
+  gap: 2rem;
+}
+.header .nav a {
+  text-decoration: none;
+  color: #f5f2ea;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+.header .nav a:hover {
+  color: #c4c5be;
+}
+.header .btn-primary {
+  padding: 0.7rem 1.5rem;
+  background-color: #a4b448;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header .btn-primary:hover {
+  background-color: #a4b448;
+}
+
+/* Intro Section */
+.intro {
+  background: #f5f2ea;
+  text-align: center;
+  padding: 4rem 0;
+}
+.intro .txt-holder {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.intro h1 {
+  font-size: 2.5rem;
+  color: #a4b448;
+}
+.intro p {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+}
+.intro .mascot {
+  max-width: 700px;
+  display: table;
+  margin: 0 auto 20px;
+}
+.intro .btn-primary {
+  padding: 1rem 2rem;
+  background-color: #161518;
+  color: #F3eaf4;
+  border: none;
+  border-radius: 5px;
+  display: table;
+  text-decoration: none;
+  margin: 10px auto 0;
+}
+.intro .btn-primary:hover {
+  color: white;
+  background-color: #a4b448;
+}
+
+/* How to Buy Section */
+.how-to-buy {
+  background-color: #ccbea5;
+  padding: 4rem 0;
+  text-align: center;
+  color: #000;
+}
+.how-to-buy h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.how-to-buy .steps {
+  display: flex;
+  justify-content: space-around;
+}
+.how-to-buy .steps .step {
+  max-width: 200px;
+}
+.how-to-buy .steps .step h3 {
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+.how-to-buy .steps .step p {
+  font-size: 1rem;
+}
+.how-to-buy .steps .step img {
+  max-width: 100px;
+  border-radius: 100%;
+}
+
+.follow-us {
+  background-color: #a4b448;
+  padding: 3rem 0;
+  text-align: center;
+}
+.follow-us h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.follow-us .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.follow-us .social-icons a img {
+  width: 50px;
+}
+
+/* Tokenomics */
+.tokenomics {
+  background: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+.tokenomics .pie-chart {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+.tokenomics h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.tokenomics .distribution {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.tokenomics .distribution li {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.tokenomics .distribution li h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Social Media */
+.social-media {
+  background: #161518;
+  padding: 3rem 0;
+  text-align: center;
+}
+.social-media h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.social-media .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.social-media .social-icons a img {
+  width: 50px;
+}
+
+/* Footer */
+.footer {
+  background: #c4c5be;
+  color: #000;
+  text-align: center;
+  padding: 2rem 0;
+}
+.footer a {
+  color: #000;
+}
+.footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.footer .footer-links li {
+  list-style: none;
+}
+.footer .footer-links li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.footer .footer-links li a:hover {
+  color: #ffcc00;
+}
+.footer .disclaimer {
+  font-size: 0.8rem;
+  color: #000;
+  margin-top: 1rem;
+}
+
+/* Convert Coin */
+.convert-coin {
+  background: #1c2936;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+#integrated-terminal {
+  width: 450px;
+  height: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
